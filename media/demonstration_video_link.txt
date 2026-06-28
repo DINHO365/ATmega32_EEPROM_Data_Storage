@@ -1,0 +1,2 @@
+Demonstration video: see demonstration_video.mp4 in this same folder
+(SimulIDE walkthrough recorded 2026-06-28, ~67.7 MB)
