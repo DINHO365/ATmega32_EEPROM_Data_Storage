@@ -1,0 +1,362 @@
+Info: Processing symbol 'BZ1:Buzzer_Beeper:Buzzer_12x9.5RM7.6'.
+Info: Processing symbol 'Q1:'.
+Info: Processing symbol 'R4:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'C3:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm'.
+Info: Processing symbol 'ERROR_LED1:LED_THT:LED_D5.0mm'.
+Info: Processing symbol 'R1:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R3:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R2:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'CLEAR1:Button_Switch_THT:SW_PUSH_6mm'.
+Info: Processing symbol 'C2:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm'.
+Info: Processing symbol 'J1:'.
+Info: Processing symbol 'C6:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm'.
+Info: Processing symbol 'D1:'.
+Info: Processing symbol 'READ1:Button_Switch_THT:SW_PUSH_6mm'.
+Info: Processing symbol 'C1:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm'.
+Info: Processing symbol 'C5:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm'.
+Info: Processing symbol 'DEC1:Button_Switch_THT:SW_PUSH_6mm'.
+Info: Processing symbol 'INC1:Button_Switch_THT:SW_PUSH_6mm'.
+Info: Processing symbol 'C4:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm'.
+Info: Processing symbol 'R5:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'RV1:'.
+Info: Processing symbol 'SAVE1:Button_Switch_THT:SW_PUSH_6mm'.
+Info: Processing symbol 'SAVE_LED1:LED_THT:LED_D5.0mm'.
+Info: Processing symbol 'SW6:Button_Switch_THT:SW_PUSH_6mm'.
+Info: Processing symbol 'U1:Package_DIP:DIP-40_W15.24mm'.
+Info: Processing symbol 'Y1:Crystal:Crystal_HC49-U_Vertical'.
+Updated BZ1 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated BZ1 footprint filters to '*Buzzer*'.
+Add net Net-(BZ1--).
+Connected BZ1 pin 2 to Net-(BZ1--).
+Add net +5.
+Connected BZ1 pin 1 to +5.
+Updated BZ1 unit metadata.
+Added C1 (footprint 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm').
+Changed REF** reference designator to C1.
+Changed C1 value from C_Disc_D5.0mm_W2.5mm_P5.00mm to 100nF.
+Updated C1 symbol association from  to /24bfcb52-a1db-472c-bd11-8dc81d7c9061.
+Updated C1 fields.
+Updated C1 sheetname to '/'.
+Updated C1 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated C1 footprint filters to 'C_*'.
+Add net Net-(U1-AREF).
+Connected C1 pin 2 to Net-(U1-AREF).
+Add net GND.
+Connected C1 pin 1 to GND.
+Updated C1 unit metadata.
+Added C2 (footprint 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm').
+Changed REF** reference designator to C2.
+Changed C2 value from C_Disc_D5.0mm_W2.5mm_P5.00mm to 100nF.
+Updated C2 symbol association from  to /e254cf9d-e043-4f94-97bb-694d49c90928.
+Updated C2 fields.
+Updated C2 sheetname to '/'.
+Updated C2 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated C2 footprint filters to 'C_*'.
+Connected C2 pin 2 to +5.
+Connected C2 pin 1 to GND.
+Updated C2 unit metadata.
+Added C3 (footprint 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm').
+Changed REF** reference designator to C3.
+Changed C3 value from C_Disc_D5.0mm_W2.5mm_P5.00mm to 22pF.
+Updated C3 symbol association from  to /5f5ba432-2e26-45a8-8a6d-44987db70e49.
+Updated C3 fields.
+Updated C3 sheetname to '/'.
+Updated C3 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated C3 footprint filters to 'C_*'.
+Connected C3 pin 1 to GND.
+Add net Net-(U1-XTAL1).
+Connected C3 pin 2 to Net-(U1-XTAL1).
+Updated C3 unit metadata.
+Added C4 (footprint 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm').
+Changed REF** reference designator to C4.
+Changed C4 value from C_Disc_D5.0mm_W2.5mm_P5.00mm to 22pF.
+Updated C4 symbol association from  to /1d878bed-edf5-4163-8b4c-c4068b8f29d9.
+Updated C4 fields.
+Updated C4 sheetname to '/'.
+Updated C4 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated C4 footprint filters to 'C_*'.
+Add net Net-(U1-XTAL2).
+Connected C4 pin 2 to Net-(U1-XTAL2).
+Connected C4 pin 1 to GND.
+Updated C4 unit metadata.
+Added C5 (footprint 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm').
+Changed REF** reference designator to C5.
+Changed C5 value from C_Disc_D5.0mm_W2.5mm_P5.00mm to 10µF.
+Updated C5 symbol association from  to /0e762724-41b4-4da6-81d5-d80346a5db59.
+Updated C5 fields.
+Updated C5 sheetname to '/'.
+Updated C5 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated C5 footprint filters to 'C_*'.
+Connected C5 pin 2 to +5.
+Connected C5 pin 1 to GND.
+Updated C5 unit metadata.
+Added C6 (footprint 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm').
+Changed REF** reference designator to C6.
+Changed C6 value from C_Disc_D5.0mm_W2.5mm_P5.00mm to 100nF.
+Updated C6 symbol association from  to /9841b891-6f2c-46fd-a58e-c0312687f02c.
+Updated C6 fields.
+Updated C6 sheetname to '/'.
+Updated C6 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated C6 footprint filters to 'C_*'.
+Connected C6 pin 1 to GND.
+Connected C6 pin 2 to +5.
+Updated C6 unit metadata.
+Added CLEAR1 (footprint 'Button_Switch_THT:SW_PUSH_6mm').
+Changed REF** reference designator to CLEAR1.
+Changed CLEAR1 value from SW_PUSH_6mm to SW_Push.
+Updated CLEAR1 symbol association from  to /f9d98ad2-3187-4c4f-9837-3e64938a53d2.
+Updated CLEAR1 fields.
+Updated CLEAR1 sheetname to '/'.
+Updated CLEAR1 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Connected CLEAR1 pin 1 to GND.
+Add net Net-(U1-PA4).
+Connected CLEAR1 pin 2 to Net-(U1-PA4).
+Connected CLEAR1 pin 1 to GND.
+Connected CLEAR1 pin 2 to Net-(U1-PA4).
+Updated CLEAR1 unit metadata.
+Added DEC1 (footprint 'Button_Switch_THT:SW_PUSH_6mm').
+Changed REF** reference designator to DEC1.
+Changed DEC1 value from SW_PUSH_6mm to SW_Push.
+Updated DEC1 symbol association from  to /e86158a6-d8b5-44fe-8d50-56f265a3bca7.
+Updated DEC1 fields.
+Updated DEC1 sheetname to '/'.
+Updated DEC1 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Connected DEC1 pin 1 to GND.
+Connected DEC1 pin 1 to GND.
+Add net Net-(U1-PA1).
+Connected DEC1 pin 2 to Net-(U1-PA1).
+Connected DEC1 pin 2 to Net-(U1-PA1).
+Updated DEC1 unit metadata.
+Added ERROR_LED1 (footprint 'LED_THT:LED_D5.0mm').
+Changed REF** reference designator to ERROR_LED1.
+Changed ERROR_LED1 value from LED_D5.0mm to LED.
+Updated ERROR_LED1 symbol association from  to /03e158cb-828b-4738-9a32-4cf614b0b1c2.
+Updated ERROR_LED1 fields.
+Updated ERROR_LED1 sheetname to '/'.
+Updated ERROR_LED1 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated ERROR_LED1 footprint filters to 'LED* LED_SMD:* LED_THT:*'.
+Add net Net-(ERROR_LED1-K).
+Connected ERROR_LED1 pin 1 to Net-(ERROR_LED1-K).
+Connected ERROR_LED1 pin 2 to GND.
+Updated ERROR_LED1 unit metadata.
+Added INC1 (footprint 'Button_Switch_THT:SW_PUSH_6mm').
+Changed REF** reference designator to INC1.
+Changed INC1 value from SW_PUSH_6mm to SW_Push.
+Updated INC1 symbol association from  to /20042b9c-9d53-4315-aa2c-4964038f320a.
+Updated INC1 fields.
+Updated INC1 sheetname to '/'.
+Updated INC1 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Add net Net-(U1-PA0).
+Connected INC1 pin 2 to Net-(U1-PA0).
+Connected INC1 pin 2 to Net-(U1-PA0).
+Connected INC1 pin 1 to GND.
+Connected INC1 pin 1 to GND.
+Updated INC1 unit metadata.
+Added R1 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R1.
+Changed R1 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 220 Ω.
+Updated R1 symbol association from  to /25846952-49a7-47c7-8c63-a150eebb852f.
+Updated R1 fields.
+Updated R1 sheetname to '/'.
+Updated R1 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated R1 footprint filters to 'R_*'.
+Add net Net-(SAVE_LED1-K).
+Connected R1 pin 2 to Net-(SAVE_LED1-K).
+Add net Net-(U1-PB0).
+Connected R1 pin 1 to Net-(U1-PB0).
+Updated R1 unit metadata.
+Added R2 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R2.
+Changed R2 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 220 Ω.
+Updated R2 symbol association from  to /aefaf649-2aac-44a9-b6a8-29b3fd2b7f1c.
+Updated R2 fields.
+Updated R2 sheetname to '/'.
+Updated R2 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated R2 footprint filters to 'R_*'.
+Add net Net-(U1-PB1).
+Connected R2 pin 1 to Net-(U1-PB1).
+Connected R2 pin 2 to Net-(ERROR_LED1-K).
+Updated R2 unit metadata.
+Added R3 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R3.
+Changed R3 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 10K.
+Updated R3 symbol association from  to /a99e0ae9-cf5f-46ae-966e-9f08fff450c3.
+Updated R3 fields.
+Updated R3 sheetname to '/'.
+Updated R3 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated R3 footprint filters to 'R_*'.
+Connected R3 pin 1 to +5.
+Add net Net-(U1-~{RESET}).
+Connected R3 pin 2 to Net-(U1-~{RESET}).
+Updated R3 unit metadata.
+Added R4 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R4.
+Changed R4 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 1K.
+Updated R4 symbol association from  to /8c8e0ea6-d48a-435d-a58e-93637bdbd6fa.
+Updated R4 fields.
+Updated R4 sheetname to '/'.
+Updated R4 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated R4 footprint filters to 'R_*'.
+Add net Net-(U1-PB2).
+Connected R4 pin 1 to Net-(U1-PB2).
+Add net Net-(Q1-B).
+Connected R4 pin 2 to Net-(Q1-B).
+Updated R4 unit metadata.
+Added R5 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R5.
+Changed R5 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 33 Ω.
+Updated R5 symbol association from  to /6cdbeba3-d8a7-4b60-be25-00a370c620dc.
+Updated R5 fields.
+Updated R5 sheetname to '/'.
+Updated R5 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated R5 footprint filters to 'R_*'.
+Add net Net-(J1-Pin_15).
+Connected R5 pin 2 to Net-(J1-Pin_15).
+Connected R5 pin 1 to +5.
+Updated R5 unit metadata.
+Added READ1 (footprint 'Button_Switch_THT:SW_PUSH_6mm').
+Changed REF** reference designator to READ1.
+Changed READ1 value from SW_PUSH_6mm to SW_Push.
+Updated READ1 symbol association from  to /5ea2faad-7d2b-4ffe-926f-460adb47186b.
+Updated READ1 fields.
+Updated READ1 sheetname to '/'.
+Updated READ1 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Add net Net-(U1-PA3).
+Connected READ1 pin 2 to Net-(U1-PA3).
+Connected READ1 pin 2 to Net-(U1-PA3).
+Connected READ1 pin 1 to GND.
+Connected READ1 pin 1 to GND.
+Updated READ1 unit metadata.
+Added BZ1 (footprint 'Buzzer_Beeper:Buzzer_12x9.5RM7.6').
+Changed REF** reference designator to BZ1.
+Added SAVE1 (footprint 'Button_Switch_THT:SW_PUSH_6mm').
+Changed REF** reference designator to SAVE1.
+Changed SAVE1 value from SW_PUSH_6mm to SW_Push.
+Updated SAVE1 symbol association from  to /aa2ea0c0-ae05-4af6-8a99-f9b31aa69a28.
+Updated SAVE1 fields.
+Updated SAVE1 sheetname to '/'.
+Updated SAVE1 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Add net Net-(U1-PA2).
+Connected SAVE1 pin 2 to Net-(U1-PA2).
+Connected SAVE1 pin 1 to GND.
+Connected SAVE1 pin 2 to Net-(U1-PA2).
+Connected SAVE1 pin 1 to GND.
+Updated SAVE1 unit metadata.
+Changed BZ1 value from Buzzer_12x9.5RM7.6 to Buzzer.
+Added SAVE_LED1 (footprint 'LED_THT:LED_D5.0mm').
+Changed REF** reference designator to SAVE_LED1.
+Changed SAVE_LED1 value from LED_D5.0mm to LED.
+Updated SAVE_LED1 symbol association from  to /df7bb9b5-a601-405f-a89e-340b0aa88f51.
+Updated SAVE_LED1 fields.
+Updated SAVE_LED1 sheetname to '/'.
+Updated SAVE_LED1 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated SAVE_LED1 footprint filters to 'LED* LED_SMD:* LED_THT:*'.
+Connected SAVE_LED1 pin 2 to GND.
+Connected SAVE_LED1 pin 1 to Net-(SAVE_LED1-K).
+Updated SAVE_LED1 unit metadata.
+Updated BZ1 symbol association from  to /de0766b6-4bf1-4921-b813-c11837fbc788.
+Added SW6 (footprint 'Button_Switch_THT:SW_PUSH_6mm').
+Changed REF** reference designator to SW6.
+Changed SW6 value from SW_PUSH_6mm to SW_Push.
+Updated SW6 symbol association from  to /44e3c206-02d5-4e98-98ad-dfd872349ed3.
+Updated SW6 fields.
+Updated SW6 sheetname to '/'.
+Updated SW6 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Connected SW6 pin 2 to +5.
+Connected SW6 pin 1 to GND.
+Connected SW6 pin 1 to GND.
+Connected SW6 pin 2 to +5.
+Updated SW6 unit metadata.
+Updated BZ1 fields.
+Added U1 (footprint 'Package_DIP:DIP-40_W15.24mm').
+Changed REF** reference designator to U1.
+Changed U1 value from DIP-40_W15.24mm to ATmega32-16P.
+Updated U1 symbol association from  to /f4b6e0bf-be70-449e-be25-8a7d1761b35b.
+Updated U1 fields.
+Updated U1 sheetname to '/'.
+Updated U1 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated U1 footprint filters to 'DIP*W15.24mm*'.
+Add net unconnected-(U1-PC0-Pad22).
+Connected U1 pin 22 to unconnected-(U1-PC0-Pad22).
+Add net unconnected-(U1-PB5-Pad6).
+Connected U1 pin 6 to unconnected-(U1-PB5-Pad6).
+Add net unconnected-(U1-PB6-Pad7).
+Connected U1 pin 7 to unconnected-(U1-PB6-Pad7).
+Connected U1 pin 36 to Net-(U1-PA4).
+Add net Net-(J1-Pin_12).
+Connected U1 pin 27 to Net-(J1-Pin_12).
+Connected U1 pin 31 to GND.
+Connected U1 pin 3 to Net-(U1-PB2).
+Add net unconnected-(U1-PD0-Pad14).
+Connected U1 pin 14 to unconnected-(U1-PD0-Pad14).
+Add net unconnected-(U1-PD1-Pad15).
+Connected U1 pin 15 to unconnected-(U1-PD1-Pad15).
+Add net Net-(J1-Pin_5).
+Connected U1 pin 19 to Net-(J1-Pin_5).
+Add net unconnected-(U1-PD3-Pad17).
+Connected U1 pin 17 to unconnected-(U1-PD3-Pad17).
+Add net unconnected-(U1-PA7-Pad33).
+Connected U1 pin 33 to unconnected-(U1-PA7-Pad33).
+Add net unconnected-(U1-PD7-Pad21).
+Connected U1 pin 21 to unconnected-(U1-PD7-Pad21).
+Connected U1 pin 10 to +5.
+Add net unconnected-(U1-PB3-Pad4).
+Connected U1 pin 4 to unconnected-(U1-PB3-Pad4).
+Connected U1 pin 37 to Net-(U1-PA3).
+Connected U1 pin 38 to Net-(U1-PA2).
+Connected U1 pin 13 to Net-(U1-XTAL1).
+Add net Net-(J1-Pin_11).
+Connected U1 pin 26 to Net-(J1-Pin_11).
+Connected U1 pin 30 to +5.
+Add net Net-(J1-Pin_14).
+Connected U1 pin 29 to Net-(J1-Pin_14).
+Add net unconnected-(U1-PC3-Pad25).
+Connected U1 pin 25 to unconnected-(U1-PC3-Pad25).
+Connected U1 pin 40 to Net-(U1-PA0).
+Connected U1 pin 1 to Net-(U1-PB0).
+Connected U1 pin 12 to Net-(U1-XTAL2).
+Connected U1 pin 11 to GND.
+Add net Net-(J1-Pin_4).
+Connected U1 pin 18 to Net-(J1-Pin_4).
+Add net unconnected-(U1-PA6-Pad34).
+Connected U1 pin 34 to unconnected-(U1-PA6-Pad34).
+Connected U1 pin 39 to Net-(U1-PA1).
+Connected U1 pin 2 to Net-(U1-PB1).
+Add net unconnected-(U1-PC2-Pad24).
+Connected U1 pin 24 to unconnected-(U1-PC2-Pad24).
+Add net unconnected-(U1-PD2-Pad16).
+Connected U1 pin 16 to unconnected-(U1-PD2-Pad16).
+Connected U1 pin 9 to Net-(U1-~{RESET}).
+Add net unconnected-(U1-PB7-Pad8).
+Connected U1 pin 8 to unconnected-(U1-PB7-Pad8).
+Connected U1 pin 32 to Net-(U1-AREF).
+Add net unconnected-(U1-PC1-Pad23).
+Connected U1 pin 23 to unconnected-(U1-PC1-Pad23).
+Add net Net-(J1-Pin_6).
+Connected U1 pin 20 to Net-(J1-Pin_6).
+Add net Net-(J1-Pin_13).
+Connected U1 pin 28 to Net-(J1-Pin_13).
+Add net unconnected-(U1-PB4-Pad5).
+Connected U1 pin 5 to unconnected-(U1-PB4-Pad5).
+Add net unconnected-(U1-PA5-Pad35).
+Connected U1 pin 35 to unconnected-(U1-PA5-Pad35).
+Updated U1 unit metadata.
+Updated BZ1 sheetname to '/'.
+Added Y1 (footprint 'Crystal:Crystal_HC49-U_Vertical').
+Changed REF** reference designator to Y1.
+Changed Y1 value from Crystal_HC49-U_Vertical to 16MHz.
+Updated Y1 symbol association from  to /7d55f320-9426-416c-ad1c-54ae5ae9aaff.
+Updated Y1 fields.
+Updated Y1 sheetname to '/'.
+Updated Y1 sheetfile to 'ATmega32_EEPROM_Storage.kicad_sch'.
+Updated Y1 footprint filters to 'Crystal*'.
+Connected Y1 pin 2 to Net-(U1-XTAL1).
+Connected Y1 pin 1 to Net-(U1-XTAL2).
+Updated Y1 unit metadata.
+Error: Cannot add Q1 (no footprint assigned).
+Error: Cannot add J1 (no footprint assigned).
+Error: Cannot add RV1 (no footprint assigned).
+Error: Cannot add D1 (no footprint assigned).
+
+
+Info: Total warnings: 0, errors: 4.
