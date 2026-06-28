@@ -17,13 +17,9 @@
 | PC4-PC7                   | Digital output | LCD D4-D7 (J1 pins 11-14) | `LCD_D4..LCD_D7` |
 | PD0 / RXD, PD1 / TXD      | unused on this board | not wired to anything (no serial header on the actual PCB) | n/a |
 
-The pin mapping above for the LCD (PD4/PD5/PD6, PC4-PC7) and the
-USART note come directly from the project's KiCad schematic/PCB
-(`kicad/schematic/`, `kicad/pcb/`), not from a generic assumption — see
-`report.txt` in either folder for the netlist trace. J1 is a standard
-16-pin HD44780 header: pin 1=GND, pin 2=+5V, pin 3=VEE (contrast, via
-potentiometer RV1), pins 7-10=GND (D0-D3, unused in 4-bit mode), pin
-15=LED+ (via resistor R5), pin 16=LED- (GND).
+J1 is a standard 16-pin HD44780 header: pin 1=GND, pin 2=+5V, pin
+3=VEE (contrast, via potentiometer RV1), pins 7-10=GND (D0-D3, unused
+in 4-bit mode), pin 15=LED+ (via resistor R5), pin 16=LED- (GND).
 
 DDR configuration used by the firmware:
 

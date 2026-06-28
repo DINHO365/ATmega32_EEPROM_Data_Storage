@@ -5,7 +5,7 @@
 | 0x00           | 1 byte  | Magic/init byte (`0xAA` once initialized) | `EEPROM_Storage_Init`, `EEPROM_SaveValue`, `EEPROM_ClearValue` | `EEPROM_Storage_Init` (first-boot detection) |
 | 0x01           | 1 byte  | Saved configuration value (0-255)     | `EEPROM_SaveValue`, `EEPROM_ClearValue` | `EEPROM_LoadValue` (on startup and on Read button) |
 
-## Why a magic byte?
+## Magic byte rationale
 
 Unprogrammed/erased EEPROM cells read back as `0xFF`. Without a sentinel,
 the very first power-up would load `255` as if it were a valid saved

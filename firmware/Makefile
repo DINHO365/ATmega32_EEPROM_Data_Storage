@@ -8,14 +8,8 @@ SRC_DIR   = src
 INC_DIR   = include
 HEX_DIR   = hex
 
-# If your avr-gcc came bundled with MPLAB XC8 (e.g. under
-# "...\Microchip\xc8\vX.Y\avr\bin"), it ships WITHOUT classic-AVR
-# device headers/CRT/lib for parts like the ATmega32 — those live in
-# Microchip's "ATmega_DFP" Device Family Pack instead. Point DFP_DIR
-# at the installed pack version if you hit "iom32.h: No such file" or
-# "cannot find crtatmega32.o" errors. A plain WinAVR/avr-gcc install
-# (or Linux/macOS package) already includes these and DFP_DIR can be
-# left empty.
+# Optional: set to a Microchip ATmega_DFP pack path if avr-gcc is
+# missing classic-AVR device headers/CRT/lib for the ATmega32.
 DFP_DIR   ?=
 DFP_INC   = $(DFP_DIR)/include
 DFP_LIB   = $(DFP_DIR)/gcc/dev/$(MCU)/avr5
