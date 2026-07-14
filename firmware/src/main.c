@@ -3,14 +3,19 @@
  * Project 16: EEPROM-Based Data Logging and Configuration Storage System
  *
  * Flow:
- *   Startup  -> load saved value from EEPROM, show CURRENT/SAVED
+ *   Startup  -> reload current_value from its EEPROM auto-save slot and
+ *               saved_value from the explicit SAVE slot, show CURRENT/SAVED
  *   Standby  -> poll the 5 buttons
  *   INC/DEC  -> adjust current_value in RAM (clamped to VALUE_MIN/VALUE_MAX)
- *   SAVE     -> write current_value to EEPROM, confirm with LED + buzzer
- *   READ     -> re-read EEPROM and show it as the saved value
- *   CLEAR    -> reset EEPROM (and current_value) to VALUE_DEFAULT
- *   Reset/Power-cycle -> EEPROM retains the last saved value, reloaded on
- *                        the next startup
+ *               and immediately auto-save it to EEPROM, so the working
+ *               value survives reset/power-cycling without pressing SAVE
+ *   SAVE     -> write current_value to the explicit SAVED slot, confirm
+ *               with LED + buzzer
+ *   READ     -> re-read the explicit SAVED slot and show it as saved_value
+ *   CLEAR    -> reset EEPROM (both slots) and current_value/saved_value to
+ *               VALUE_DEFAULT
+ *   Reset/Power-cycle -> EEPROM retains the last incremented/decremented
+ *                        value, reloaded automatically on the next startup
  */
 
 #include "config.h"
@@ -29,9 +34,11 @@ int main(void)
     Display_Init();
     EEPROM_Storage_Init();
 
-    /* Startup: last saved value is loaded from EEPROM */
+    /* Startup: current_value is the last auto-saved (incremented/decremented)
+     * value, recovered without the user ever pressing SAVE; saved_value is
+     * the last value explicitly written via the SAVE button. */
+    current_value = EEPROM_LoadCurrentValue();
     saved_value = EEPROM_LoadValue();
-    current_value = saved_value;
 
     Display_ShowMessage("EEPROM STORAGE", "SYSTEM READY");
     Display_ShowValues(current_value, saved_value);
@@ -43,6 +50,7 @@ int main(void)
             case BUTTON_INC:
                 if (current_value < VALUE_MAX) {
                     current_value++;
+                    EEPROM_SaveCurrentValue(current_value);
                     Display_ShowValues(current_value, saved_value);
                 } else {
                     Indicator_Error(); /* already at maximum */
@@ -52,6 +60,7 @@ int main(void)
             case BUTTON_DEC:
                 if (current_value > VALUE_MIN) {
                     current_value--;
+                    EEPROM_SaveCurrentValue(current_value);
                     Display_ShowValues(current_value, saved_value);
                 } else {
                     Indicator_Error(); /* already at minimum */
