@@ -54,9 +54,10 @@
 /* ---------------------------------------------------------------------
  * EEPROM address map
  * --------------------------------------------------------------------- */
-#define EEPROM_ADDR_MAGIC   0x00   /* marks EEPROM as initialized        */
-#define EEPROM_ADDR_VALUE   0x01   /* stores the saved current value     */
-#define EEPROM_MAGIC_BYTE   0xAA   /* sentinel written after first save  */
+#define EEPROM_ADDR_MAGIC    0x00   /* marks EEPROM as initialized              */
+#define EEPROM_ADDR_VALUE    0x01   /* explicitly saved value (SAVE button)     */
+#define EEPROM_ADDR_CURRENT  0x02   /* auto-saved value (every INC/DEC press)   */
+#define EEPROM_MAGIC_BYTE    0xAA   /* sentinel written after first save        */
 
 /* ---------------------------------------------------------------------
  * Value limits
