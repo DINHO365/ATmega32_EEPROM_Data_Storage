@@ -56,7 +56,7 @@ the same source/include paths.)
 
 | Action            | Result |
 |--------------------|--------|
-| Power ON / Reset   | Last value loaded from EEPROM and shown as CURRENT |
+| Power ON / OFF   | Last value loaded from EEPROM and shown as CURRENT |
 | INC button (PA0)   | CURRENT increases (clamped at 255) |
 | DEC button (PA1)   | CURRENT decreases (clamped at 0) |
 | SAVE button (PA2)  | CURRENT written to EEPROM; SAVE_LED + buzzer confirm |
